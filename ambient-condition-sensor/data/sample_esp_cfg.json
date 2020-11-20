@@ -1,0 +1,12 @@
+{
+	"<device id>" : {
+		"influxdb_user" : "***",
+		"influxdb_pwd" : "*********",
+		"influxdb_db" : "***",
+		"influxdb_url" : "https://****.de",
+		"wlan_ssid" : "***",
+		"wlan_pwd" : "*********",
+		"device_name" : "*********",
+		"sleep_time" : 10
+	}
+}
