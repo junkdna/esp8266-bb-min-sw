@@ -53,7 +53,7 @@ tags: *.ino *.h
 	@../tools/gen_tags.sh
 
 check: *.ino *.h
-	@cppcheck --enable=all --std=c++20 --language=c++ *.ino *.h
+	@cppcheck --enable=all --std=c++20 --language=c++ --error-exitcode=-1 *.ino *.h
 
 clean:
 	@$(PIO) run -t clean
