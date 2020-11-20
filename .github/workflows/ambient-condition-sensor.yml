@@ -22,3 +22,16 @@ jobs:
       - name: compile
         run: |
           make -C ambient-condition-sensor/ compile
+
+  check_ambient-condition-sensor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - name: Install dependencies
+        run: |
+          sudo apt-get -y install cppcheck
+      - name: check
+        run: |
+          make -C ambient-condition-sensor/ check
