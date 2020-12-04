@@ -6,6 +6,8 @@
 #ifndef _RTC_STORAGE_H_
 #define _RTC_STORAGE_H_
 
+#include <stdint.h>
+
 #define MEM_BASE 33
 
 class ambient_condition_sensor;

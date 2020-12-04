@@ -2,6 +2,9 @@
  * SPDX-License-Identifier: GPL-3.0-only
  * Copyright 2020 Dominik Laton <dominik.laton@web.de>
  */
+
+#include <Arduino.h>
+
 #include "ambient-condition-sensor.h"
 #include "sensor.h"
 #include "uploader.h"
